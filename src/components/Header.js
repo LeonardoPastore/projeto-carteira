@@ -9,7 +9,9 @@ class Header extends Component {
 
     return (
       <div>
-        <p data-testid="email-field">{email}</p>
+        <div>
+          <span data-testid="email-field">{email}</span>
+        </div>
 
         <div data-testid="total-field">
           Despesa:

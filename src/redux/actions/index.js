@@ -1,7 +1,7 @@
 export const SAVE_EMAIL = 'SAVE_EMAIL';
 export const GET_CURRENCIES = 'GET_CURRENCIES';
 export const PUT_EXPENSE = 'PUT_EXPENSE';
-export const REMOVE_EXPENSE = 'REMOVE_EXPENSE';
+export const DELETE_EXPENSES = 'DELETE_EXPENSES';
 
 export const saveEmail = (email) => ({
   type: SAVE_EMAIL,
