@@ -18,9 +18,9 @@ export const addExpense = (expense) => ({
   payload: expense,
 });
 
-export const removeExpense = (expense) => ({
-  type: REMOVE_EXPENSE,
-  payload: expense,
+export const deleteExpenses = (expenses) => ({
+  type: DELETE_EXPENSES,
+  payload: expenses,
 });
 
 export const getCurrencies = () => async (dispatch) => {
