@@ -14,7 +14,6 @@ class Header extends Component {
         </div>
 
         <div data-testid="total-field">
-          Despesa:
           {expenses.length > 0
             ? expenses
               .reduce((total, expense) => {
